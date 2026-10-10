@@ -461,3 +461,14 @@ Files: docs/CREDITOS.md, docs/ORDEN_COMMITS.md, docs/PROGRESO.md, docs/habitacio
 Change: feat: integrar habitación propia como fondo de Casa
 Commit: 237456f
 Notes: Adjunto propio copiado intacto, SHA2568fe5ffde; escala uniforme en Phaser. Check y ambas builds pasan. Descanso, viajes y guardado comprobados en desarrollo/demo/mes; capturas revisadas. Primer intento de producción tuvo suspensión de red y revisión de permiso vencida; reintentos secuenciales pasan. Revisiones code/TS sin hallazgos. No generación IA nueva; autoría Git conservada, usuario aporta recurso. Subida por ramas autorizada.
+
+## AI-CASI-000043
+
+Timestamp: 2026-10-10T12:29:25-05:00 (hora local del equipo; la oficial es la del servidor/checkpoint)
+Participant: A00407796
+Task: Documentar AI_TRACE con evidencia de IAs, planes conocidos, agentes y archivos afectados
+Type: AI_GENERATED
+Files: docs/GUIA_TRAZABILIDAD_IA.md, docs/PROGRESO.md
+Change: Se añade guía de trazabilidad y se actualiza PROGRESO. AI_TRACE recibe una entrada incremental al final; las anteriores quedan intactas.
+Commit: 9a37aff
+Notes: Codex (OpenAI), modelo GPT-6 visible en esta sesión; plan/facturación: desconocido. Sin agentes invocados para redactar esta guía. La guía identifica como evidenciados en el pase previo los revisores Codex mes_code_review y mensual_typescript; Claude aparece en informes guardados, con modelo/plan desconocidos; modelos locales SDXL/Pixel Art XL y MusicGen constan en manifiestos. SFX es síntesis procedural. Solo paths realmente incluidos en el commit; no se afirma sobrescritura total sin evidencia. Commit local únicamente con --sin-push; no subido a origin.
