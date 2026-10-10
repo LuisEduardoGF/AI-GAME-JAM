@@ -384,3 +384,14 @@ Files: .gitignore, AI_TRACE.md, README.md, demo/index.html, docs/CREDITOS.md, do
 Change: chore: base Phaser, dependencias y documentación del equipo
 Commit: 7265360
 Notes: Usuario autorizó esta subida. Snapshot actual; no historia reconstruida. Rama parcial apilada, integración jugable al final. Se conservan autor Git y entradas previas. Helper del entorno ampliado con solo-index/prefijo; check y builds completos pasan.
+
+## AI-CASI-000036
+
+Timestamp: 2026-10-10T07:52:14-05:00 (hora local del equipo; la oficial es la del servidor/checkpoint)
+Participant: A00407796
+Task: Subida autorizada por funcionalidad: 02 feat: fondos, personajes, animación y dirección visual
+Type: AI_GENERATED
+Files: docs/ANIMACION_PATATA.md, docs/ARTE_MENSUAL.md, docs/DIRECCION_VISUAL.md, docs/REVISION_CLAUDE_GRAFICA.md, docs/arte-mensual-manifest.json, docs/patata-animacion-manifest.json, public/assets/img/batata-boxer.png, public/assets/img/esbirro-batata.png, public/assets/img/esbirro-rabano.png, public/assets/img/esbirro-remolacha.png, public/assets/img/esbirro-yuca.png, public/assets/img/gym-interior.jpg, public/assets/img/market-alley.jpg, public/assets/img/patata-ataques.png, public/assets/img/patata-boxer.png y 7 más
+Change: feat: fondos, personajes, animación y dirección visual
+Commit: a616856
+Notes: Grupo del snapshot actual, con fechas reales. Nombres como responsables de revisión solicitados; autor Git conservado. Rama apilada sobre el grupo previo. Trazabilidad IA mantenida; sin force push ni reescritura.
