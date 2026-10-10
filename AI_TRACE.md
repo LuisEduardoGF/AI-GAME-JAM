@@ -373,3 +373,14 @@ Files: src/mes/guia.ts, src/mes/escena.ts, docs/GUIA_DEL_JUEGO.md, docs/PROGRESO
 Change: Ocho temas con índice y paginación, 24 explicaciones y consejos; objetivo/agenda según demo o campaña. Acceso desde portada y conservación de retorno a pausa. Corregido Escape en guía de portada. Check y ambas builds pasan; ocho páginas, geometría, estado intacto, Enter/Escape y vertical verificados. Ayuda en combate por fixture y demo real completa hasta victoria con guardado/pausa comprobados. Revisiones code/TS sin pendientes. ZIP demo073838 y mes073837 idénticos archivo por archivo a builds; copia de demo en Descargas verificada.
 Commit: PENDING
 Notes: Guía consultable, sin ejercicios obligatorios ni resaltado automático. Comprensión con jugadores nuevos pendiente; en vertical la lectura es pequeña. Sin commits, push ni publicación por commitsAuto:false. Las entradas anteriores se conservan.
+
+## AI-CASI-000035
+
+Timestamp: 2026-10-10T07:51:33-05:00 (hora local del equipo; la oficial es la del servidor/checkpoint)
+Participant: A00407796
+Task: Subida autorizada por funcionalidad: 01 base del proyecto
+Type: AI_GENERATED
+Files: .gitignore, AI_TRACE.md, README.md, demo/index.html, docs/CREDITOS.md, docs/GDD.md, docs/ORDEN_COMMITS.md, docs/PROGRESO.md, index.html, package-lock.json, package.json, public/CREDITOS.txt, public/favicon.svg, src/demo-main.ts, src/main.ts y 3 más
+Change: chore: base Phaser, dependencias y documentación del equipo
+Commit: 7265360
+Notes: Usuario autorizó esta subida. Snapshot actual; no historia reconstruida. Rama parcial apilada, integración jugable al final. Se conservan autor Git y entradas previas. Helper del entorno ampliado con solo-index/prefijo; check y builds completos pasan.
