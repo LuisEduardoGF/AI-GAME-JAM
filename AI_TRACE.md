@@ -450,3 +450,14 @@ Files: README.md, docs/ORDEN_COMMITS.md, docs/PROGRESO.md
 Change: docs: índice de funcionalidades y verificación de integración
 Commit: 4b88c89
 Notes: Usuario autoriza commits y ramas. Seis grupos y puntas remotas verificados. Copia limpia del commit539c621: npm ci offline/check/build/builddemo pasan. Smoke real y capturas inspeccionadas. Entradas anteriores de AI_TRACE idénticas por bytes. Sin fechas alteradas, firmas supuestas ni force push.
+
+## AI-CASI-000042
+
+Timestamp: 2026-10-10T08:13:04-05:00 (hora local del equipo; la oficial es la del servidor/checkpoint)
+Participant: A00407796
+Task: Usar la imagen proporcionada por el equipo para la habitación
+Type: AI_ASSISTED
+Files: docs/CREDITOS.md, docs/ORDEN_COMMITS.md, docs/PROGRESO.md, docs/habitacion-manifest.json, public/CREDITOS.txt, public/assets/img/home-interior.jpg, src/mes/escena.ts
+Change: feat: integrar habitación propia como fondo de Casa
+Commit: 237456f
+Notes: Adjunto propio copiado intacto, SHA2568fe5ffde; escala uniforme en Phaser. Check y ambas builds pasan. Descanso, viajes y guardado comprobados en desarrollo/demo/mes; capturas revisadas. Primer intento de producción tuvo suspensión de red y revisión de permiso vencida; reintentos secuenciales pasan. Revisiones code/TS sin hallazgos. No generación IA nueva; autoría Git conservada, usuario aporta recurso. Subida por ramas autorizada.
