@@ -406,3 +406,14 @@ Files: docs/AUDIO_EFECTOS.md, docs/AUDIO_MUSICA.md, docs/audio-efectos-manifest.
 Change: feat: música, efectos y mezcla de audio
 Commit: 4d85a3a
 Notes: Grupo del snapshot actual, con fechas reales. Nombres como responsables de revisión solicitados; autor Git conservado. Rama apilada sobre el grupo previo. Trazabilidad IA mantenida; sin force push ni reescritura.
+
+## AI-CASI-000038
+
+Timestamp: 2026-10-10T07:52:41-05:00 (hora local del equipo; la oficial es la del servidor/checkpoint)
+Participant: A00407796
+Task: Subida autorizada por funcionalidad: 04 feat: campaña mensual, mercado, deudas y combate automático
+Type: AI_GENERATED
+Files: docs/MODELO_MENSUAL.md, docs/REVISION_CLAUDE_MENSUAL.md, src/mes/modelo.ts, tools/verificar-modelo.mjs
+Change: feat: campaña mensual, mercado, deudas y combate automático
+Commit: c35d9c8
+Notes: Incorporación del snapshot actual; fechas reales y rama apilada sobre grupo anterior. Registro de tareas previas en AI_TRACE sin editar. Nombres de revisión según solicitud; autor Git y trazabilidad IA conservados. Sin force push.
