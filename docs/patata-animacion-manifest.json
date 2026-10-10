@@ -1,0 +1,258 @@
+{
+  "source": "zip juego.zip > WhatsApp Unknown 2026-10-10 at 2.50.11 AM.zip > WhatsApp Image 2026-10-10 at 2.48.35 AM.jpeg",
+  "sourceSha256": "445fb75347e47d50c7ffddaa7e5dfa8e927fcb98e831d4527ff697f2222fd4cd",
+  "zipSha256": "252946e5062a189f7ee6ef8ed53b412143a9df7c4c74e4936f1070be06d9672a",
+  "frames": [
+    {
+      "frame": 0,
+      "box": [
+        65,
+        40,
+        253,
+        280
+      ],
+      "crop": ".cache\\arte\\patata-frames\\pose-00.png"
+    },
+    {
+      "frame": 1,
+      "box": [
+        286,
+        40,
+        525,
+        280
+      ],
+      "crop": ".cache\\arte\\patata-frames\\pose-01.png"
+    },
+    {
+      "frame": 2,
+      "box": [
+        540,
+        40,
+        817,
+        280
+      ],
+      "crop": ".cache\\arte\\patata-frames\\pose-02.png"
+    },
+    {
+      "frame": 3,
+      "box": [
+        775,
+        40,
+        1044,
+        280
+      ],
+      "crop": ".cache\\arte\\patata-frames\\pose-03.png"
+    },
+    {
+      "frame": 4,
+      "box": [
+        1045,
+        40,
+        1324,
+        280
+      ],
+      "crop": ".cache\\arte\\patata-frames\\pose-04.png"
+    },
+    {
+      "frame": 5,
+      "box": [
+        1340,
+        40,
+        1524,
+        280
+      ],
+      "crop": ".cache\\arte\\patata-frames\\pose-05.png"
+    },
+    {
+      "frame": 6,
+      "box": [
+        65,
+        323,
+        253,
+        519
+      ],
+      "crop": ".cache\\arte\\patata-frames\\pose-06.png"
+    },
+    {
+      "frame": 7,
+      "box": [
+        286,
+        323,
+        525,
+        519
+      ],
+      "crop": ".cache\\arte\\patata-frames\\pose-07.png"
+    },
+    {
+      "frame": 8,
+      "box": [
+        540,
+        323,
+        817,
+        519
+      ],
+      "crop": ".cache\\arte\\patata-frames\\pose-08.png"
+    },
+    {
+      "frame": 9,
+      "box": [
+        775,
+        323,
+        1044,
+        519
+      ],
+      "crop": ".cache\\arte\\patata-frames\\pose-09.png"
+    },
+    {
+      "frame": 10,
+      "box": [
+        1045,
+        323,
+        1324,
+        519
+      ],
+      "crop": ".cache\\arte\\patata-frames\\pose-10.png"
+    },
+    {
+      "frame": 11,
+      "box": [
+        1340,
+        323,
+        1524,
+        519
+      ],
+      "crop": ".cache\\arte\\patata-frames\\pose-11.png"
+    },
+    {
+      "frame": 12,
+      "box": [
+        65,
+        542,
+        253,
+        750
+      ],
+      "crop": ".cache\\arte\\patata-frames\\pose-12.png"
+    },
+    {
+      "frame": 13,
+      "box": [
+        286,
+        542,
+        525,
+        750
+      ],
+      "crop": ".cache\\arte\\patata-frames\\pose-13.png"
+    },
+    {
+      "frame": 14,
+      "box": [
+        540,
+        542,
+        817,
+        750
+      ],
+      "crop": ".cache\\arte\\patata-frames\\pose-14.png"
+    },
+    {
+      "frame": 15,
+      "box": [
+        775,
+        542,
+        1044,
+        750
+      ],
+      "crop": ".cache\\arte\\patata-frames\\pose-15.png"
+    },
+    {
+      "frame": 16,
+      "box": [
+        1045,
+        542,
+        1324,
+        750
+      ],
+      "crop": ".cache\\arte\\patata-frames\\pose-16.png"
+    },
+    {
+      "frame": 17,
+      "box": [
+        1340,
+        542,
+        1524,
+        750
+      ],
+      "crop": ".cache\\arte\\patata-frames\\pose-17.png"
+    },
+    {
+      "frame": 18,
+      "box": [
+        65,
+        770,
+        253,
+        955
+      ],
+      "crop": ".cache\\arte\\patata-frames\\pose-18.png"
+    },
+    {
+      "frame": 19,
+      "box": [
+        286,
+        770,
+        525,
+        968
+      ],
+      "crop": ".cache\\arte\\patata-frames\\pose-19.png"
+    },
+    {
+      "frame": 20,
+      "box": [
+        540,
+        770,
+        817,
+        968
+      ],
+      "crop": ".cache\\arte\\patata-frames\\pose-20.png"
+    },
+    {
+      "frame": 21,
+      "box": [
+        775,
+        770,
+        1044,
+        968
+      ],
+      "crop": ".cache\\arte\\patata-frames\\pose-21.png"
+    },
+    {
+      "frame": 22,
+      "box": [
+        1045,
+        770,
+        1324,
+        968
+      ],
+      "crop": ".cache\\arte\\patata-frames\\pose-22.png"
+    },
+    {
+      "frame": 23,
+      "box": [
+        1340,
+        770,
+        1524,
+        968
+      ],
+      "crop": ".cache\\arte\\patata-frames\\pose-23.png"
+    }
+  ],
+  "output": {
+    "file": "public/assets/img/patata-ataques.png",
+    "width": 1536,
+    "height": 55,
+    "frameWidth": 64,
+    "frameHeight": 55,
+    "frameCount": 24,
+    "sha256": "ec2c9441bdad4c21fa14f26cf278db7471db3af3b5fb152ff92f940615e30eae"
+  },
+  "processing": "Recortes propios, quitar fondo por color desde bordes, hoja --pixel 64 --colores 32; inspección visual por Codex.",
+  "origin": "Material propio del equipo autorizado por el usuario. IA de origen desconocida, sin nueva generación."
+}

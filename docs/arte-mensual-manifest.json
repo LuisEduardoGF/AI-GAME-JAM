@@ -1,0 +1,108 @@
+[
+  {
+    "archivo": "public/assets/img/esbirro-yuca.png",
+    "origen": ".cache/arte/cobradores-calidad/esbirro-yuca-2.png",
+    "modelo": "SDXL 1.0 (calidad) + Pixel Art XL",
+    "prompt": "pixel art, anthropomorphic cassava tuber vegetable monster boxer, the entire body is a single grey brown root with an angry cartoon face, no human torso, tiny black boxing mitts attached to the root sides, two stubby root legs, green scarf, single full body character facing left in fighting stance, warm vintage 16-bit boxing RPG sprite, thick dark outline, cream brown green palette, 16-bit retro video game sprite, crisp pixels, limited color palette, clean outline, single object, centered, full view, isolated on plain white background, no shadow",
+    "semilla": 510611,
+    "pasos": 30,
+    "width": 37,
+    "height": 48,
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "sha256": "3b0265cd42f06e2a89c01a0a05f448a9d6f0beb00edf1f54a774488acf80be69"
+  },
+  {
+    "archivo": "public/assets/img/esbirro-rabano.png",
+    "origen": ".cache/arte/cobradores-calidad/esbirro-rabano-2.png",
+    "modelo": "SDXL 1.0 (calidad) + Pixel Art XL",
+    "prompt": "pixel art, anthropomorphic radish vegetable monster boxer, the entire body is a single round pink radish with an angry cartoon face, green leafy tuft growing on top, no human torso, tiny orange boxing mitts attached to the radish sides, two stubby root legs, single full body character facing left in fighting stance, warm vintage 16-bit boxing RPG sprite, thick dark outline, cream red green palette, 16-bit retro video game sprite, crisp pixels, limited color palette, clean outline, single object, centered, full view, isolated on plain white background, no shadow",
+    "semilla": 510711,
+    "pasos": 30,
+    "width": 42,
+    "height": 48,
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "sha256": "360860f8792f1aeab17f881cd0945b06e094b4e2567c272f16d63dd9482b3b95"
+  },
+  {
+    "archivo": "public/assets/img/esbirro-remolacha.png",
+    "origen": ".cache/arte/cobradores-calidad/esbirro-remolacha-2.png",
+    "modelo": "SDXL 1.0 (calidad) + Pixel Art XL",
+    "prompt": "pixel art, anthropomorphic beetroot vegetable monster boxer, the entire body is a single round burgundy beet with an angry cartoon face, green leafy tuft growing on top, no human torso, tiny brass boxing mitts attached to the beet sides, two stubby root legs, grey small shoulder pads, single full body character facing left in fighting stance, warm vintage 16-bit boxing RPG sprite, thick dark outline, burgundy brass charcoal palette, 16-bit retro video game sprite, crisp pixels, limited color palette, clean outline, single object, centered, full view, isolated on plain white background, no shadow",
+    "semilla": 510811,
+    "pasos": 30,
+    "width": 34,
+    "height": 48,
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "sha256": "8ab60ff945c44c210bd90d2f48ad8b8b626003354706d7324a7fc12947d332f8"
+  },
+  {
+    "archivo": "public/assets/img/esbirro-batata.png",
+    "origen": ".cache/arte/cobradores-calidad/esbirro-batata-2.png",
+    "modelo": "SDXL 1.0 (calidad) + Pixel Art XL",
+    "prompt": "pixel art, anthropomorphic sweet potato vegetable monster boxer, the entire body is a single purple brown sweet potato with an angry cartoon face, no human torso, tiny red boxing mitts attached to the sweet potato sides, two stubby root legs, small purple scarf, single full body character facing left in fighting stance, warm vintage 16-bit boxing RPG sprite, thick dark outline, purple brown red palette, 16-bit retro video game sprite, crisp pixels, limited color palette, clean outline, single object, centered, full view, isolated on plain white background, no shadow",
+    "semilla": 510911,
+    "pasos": 30,
+    "width": 33,
+    "height": 48,
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "sha256": "f77dc0245edd67293bcc1102c8b7fc23ab7847a0f9538dd46cf4dcebda60c6d7"
+  },
+  {
+    "archivo": "public/assets/img/batata-boxer.png",
+    "origen": ".cache/reference-images/Images/WhatsApp Image 2026-10-09 at 11.28.31 PM.jpeg",
+    "procedencia": "Images.zip: assets propios del equipo autorizados por usuario",
+    "recorte": [
+      48,
+      34,
+      185,
+      237
+    ],
+    "procesado": "herramientas/ia procesar --transparente --fondo color --pixel 48 --colores 24",
+    "width": 30,
+    "height": 48,
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "source_sha256": "095bbd28a18d793408b72a20fd1e0df596c4d6ce6be87df3eea3c98ef78961ce",
+    "sha256": "cf4be5c92f56b45c967a05ba6c2a58c99d4e9f52e89286dc88dfbcae3b402aa9"
+  },
+  {
+    "archivo": "public/assets/img/remolacha-boxer.png",
+    "origen": ".cache/reference-images/Images/WhatsApp Image 2026-10-09 at 11.24.58 PM.jpeg",
+    "procedencia": "Images.zip: assets propios del equipo autorizados por usuario",
+    "recorte": [
+      770,
+      176,
+      1202,
+      732
+    ],
+    "procesado": "herramientas/ia procesar --transparente --fondo color --pixel 48 --colores 24",
+    "width": 37,
+    "height": 48,
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "source_sha256": "a6cdf5d270583649e90cc6787648427859a1f18a696ff6c110ba8fb322d2c0b1",
+    "sha256": "4bf1f1a1876d07ea4a3e6c1be9f3fdc78dac58ded1d7a0fc7aee5aa6b74669e8"
+  }
+]
