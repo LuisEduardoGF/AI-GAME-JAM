@@ -1,13 +1,17 @@
 # Progreso
 
 ## Estado actual
-- **Hora de la jam:** pase de dirección visual de la hora 7; inicio registrado: 2026-10-10 00:08 America/Bogota.
+- **Hora de la jam:** pulido de rutina de la hora 8; inicio registrado: 2026-10-10 00:08 America/Bogota.
+- **Trazabilidad IA:** se añadió `docs/GUIA_TRAZABILIDAD_IA.md` con campos para producto/modelo, modalidad de acceso conocida, agentes por rol, archivos editados/reemplazados, aporte humano y límites de evidencia. Los planes personales permanecen como desconocidos si no hay prueba. El cambio queda local; no se hace push.
 - **Fase:** Contenido; campaña mensual principal y demo independiente de tres días empaquetadas para distribución local.
 - **Loop vigente:** título → introducción/ayuda → rutina de seis franjas → compra/venta con demanda, entrenamiento y técnicas → cobro cada dos días → combate automático → jefes días 7/14/21/30 → final.
 - **Checkpoint:** el usuario autorizó esta subida por funcionalidad. Se publicaron seis ramas con commits de contenido y trazabilidad (AI-CASI-000035 a 000040); hashes en `ORDEN_COMMITS.md`. La configuración general `commitsAuto:false` se conserva; esta operación tiene autorización explícita.
 - **Verificación del repo:** copia limpia del commit 539c621; instalación offline, tipos y ambas builds pasan. No necesita archivos no versionados del workspace. Capturas de arranque/tutorial/rutina/pausa inspeccionadas en `pre-subida-ramas`. Documentación de integración preparada para publicar junto al conjunto en main.
 
 ## Entrega mensual y demo de las 07:00
+
+- Pulido de rutina: CASA anticipa la recuperación real; descansar sin efecto conserva la franja. Recibos exactos de descanso y entrenamiento al límite; compras desactivadas si no caben tres unidades y entrenamiento al máximo desactivado. Mejoras explican costes y beneficios; cierre diario informa desgaste, caducidad, franjas descartadas y ausencia de recuperación al terminar la campaña. Rama `codex/luis-09-pulido-rutina`, prefijo Luis; cambio intencional: descanso totalmente inútil ya no consume tiempo.
+- Tipos, ambas builds, ocho comprobaciones existentes del modelo y casos adicionales de recuperación fraccionaria/calor/atributo al límite pasan. Desarrollo y producción mensual verificadas con fixtures declaradas: nueve capturas por recorrido, textos inspeccionados y sin errores. La primera prueba clicó antes del refresco de Phaser tras sustituir fixtures; al esperar ese refresco, pasa. Demo compilada recorrida por controles reales hasta victoria contra Yuca, pausa y guardar/cargar correctos; 12 cuadros observados y 18 audios cargados sin fallos. Capturas `pulido-rutina-reintento`, `pulido-mes-produccion` y `pulido-demo-completa`. Revisiones de código y TypeScript sin hallazgos pendientes.
 
 - Habitación propia aportada por el usuario integrada en CASA de demo y campaña mensual. `home-interior.jpg` conserva los bytes originales; 1600×901, escala uniforme dentro del panel. Se sustituye el dormitorio procedural sin modificar descanso, vida, energía ni guardado. Procedencia y SHA256 en `habitacion-manifest.json`; créditos actualizados.
 - Tipos y ambas builds pasan. Viajes, descanso (franja/energía/dinero) y recuperación verificados en desarrollo y ambas builds; capturas inspeccionadas en `habitacion-desarrollo`, `habitacion-demo-produccion-reintento` y `habitacion-mes-produccion`. La primera prueba sufrió suspensión de red del navegador y un permiso vencido; reintentos secuenciales pasan sin errores. Revisiones de código y TypeScript sin hallazgos. Rama: `codex/johan-mariana-08-habitacion`.
@@ -34,7 +38,7 @@
 - Check y ambas builds pasan; ocho verificaciones del modelo pasan. Demo compilada recorrida mediante controles hasta final: fuerza 6/agilidad 5/resistencia 5, victoria contra Yuca, pausa visual y guardar/cargar correctos; doce cuadros observados y 18 audios cargados sin fallos. Capturas revisadas en `diseno-demo-produccion`.
 - Tres fixtures en build mensual comprueban técnicas avanzadas flameante/ardiente/roca y geometría sin desbordamientos; final mensual comprobado por fixture, no partida humana de 30 días. Capturas revisadas en `diseno-tecnicas-produccion` y `diseno-final-mensual`. Encaje vertical 720×1280 confirmado en producción; nueve vistas de rutina inspeccionadas en desarrollo. Revisiones estáticas de código y TypeScript: sin hallazgos pendientes. Sigue el aviso de tamaño del bundle de Phaser.
 - Nuevos paquetes gráficos: `entregas/patata-caliente-casi-demo-20261010-073053.zip` (40 archivos) y `entregas/patata-caliente-casi-mes-20261010-073054.zip` (45 archivos), comparados archivo por archivo con sus builds. Demo copiada a Descargas como `Patata-Caliente-Casi-Demo-Grafica.zip` y hash comprobado; entregas anteriores conservadas.
-- Pendientes: balance humano y dinero acumulado al final del mes; animaciones de rivales y poses específicas de daño/derrota; borde cian residual de Rábano; deshabilitar compra antes de pulsarla con almacén lleno (la transacción ya rechaza sin cobrar); optimización del tamaño de Phaser. MusicGen requiere atribución y uso no comercial.
+- Pendientes: balance humano y dinero acumulado al final del mes; animaciones de rivales y poses específicas de daño/derrota; borde cian residual de Rábano; optimización del tamaño de Phaser. MusicGen requiere atribución y uso no comercial.
 
 ## Contenido del modo clásico conservado
 - Nueva partida, continuar/guardado local, HUD de día/turno, monedas, existencias, vida, energía, fuerza, velocidad y vínculo.
