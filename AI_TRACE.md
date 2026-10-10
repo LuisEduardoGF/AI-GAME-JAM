@@ -395,3 +395,14 @@ Files: docs/ANIMACION_PATATA.md, docs/ARTE_MENSUAL.md, docs/DIRECCION_VISUAL.md,
 Change: feat: fondos, personajes, animación y dirección visual
 Commit: a616856
 Notes: Grupo del snapshot actual, con fechas reales. Nombres como responsables de revisión solicitados; autor Git conservado. Rama apilada sobre el grupo previo. Trazabilidad IA mantenida; sin force push ni reescritura.
+
+## AI-CASI-000037
+
+Timestamp: 2026-10-10T07:52:22-05:00 (hora local del equipo; la oficial es la del servidor/checkpoint)
+Participant: A00407796
+Task: Subida autorizada por funcionalidad: 03 feat: música, efectos y mezcla de audio
+Type: AI_GENERATED
+Files: docs/AUDIO_EFECTOS.md, docs/AUDIO_MUSICA.md, docs/audio-efectos-manifest.json, docs/ia_assets.jsonl, public/assets/musica/barrio.mp3, public/assets/musica/portada.mp3, public/assets/musica/ring.mp3, public/assets/sonidos/confirmar.wav, public/assets/sonidos/derrota.wav, public/assets/sonidos/descansar.wav, public/assets/sonidos/entrenar.wav, public/assets/sonidos/esquiva.wav, public/assets/sonidos/fuego.wav, public/assets/sonidos/guardia.wav, public/assets/sonidos/hablar.wav y 8 más
+Change: feat: música, efectos y mezcla de audio
+Commit: 4d85a3a
+Notes: Grupo del snapshot actual, con fechas reales. Nombres como responsables de revisión solicitados; autor Git conservado. Rama apilada sobre el grupo previo. Trazabilidad IA mantenida; sin force push ni reescritura.
