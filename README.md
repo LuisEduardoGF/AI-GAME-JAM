@@ -35,3 +35,9 @@ Elige lugares, entrena fuerza/agilidad/resistencia, usa las ventas para pagar me
 - En combate, el personaje actúa solo; puedes pausar o cambiar ritmo 1× / 2×.
 
 Ver `docs/DEMO_0700.md`, `docs/MODELO_MENSUAL.md`, `docs/CREDITOS.md` y `AI_TRACE.md`. MusicGen limita las pistas a uso no comercial y requiere atribución. La mezcla necesita escucha humana; el balance final se sigue afinando.
+
+## Ramas y revisión por funcionalidades
+
+El orden, responsables de revisión y hashes están en [docs/ORDEN_COMMITS.md](docs/ORDEN_COMMITS.md). Las ramas `codex/` se apilan por dependencias; `main` reúne el conjunto. El historial registra la subida actual con fechas reales; AI_TRACE.md conserva las tareas anteriores.
+
+Los prefijos Johan y Mariana (arte), Mariana y Luis (sonido) y Luis (programación) siguen la asignación del equipo. Los commits conservan la identidad Git configurada y declaran la generación con IA. Los paquetes de entrega y node_modules no se versionan; se regeneran con los comandos anteriores.

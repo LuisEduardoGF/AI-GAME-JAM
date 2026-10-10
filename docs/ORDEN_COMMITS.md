@@ -18,4 +18,21 @@ Las ramas se apilan en este orden: cada una incorpora el grupo anterior y añade
 
 Se usan commits normales, con fechas reales y entradas nuevas de trazabilidad. El helper oficial del entorno admite `--solo-index` para respetar los archivos preparados y `--prefijo` para incluir los nombres también en el commit de la traza. Los ZIP generados se conservan localmente y se excluyen de Git; se regeneran mediante los comandos del README.
 
-Los hashes y la comprobación del remoto se añaden después de crear los commits.
+## Commits verificados
+
+| Grupo | Commit funcional | Commit de traza |
+|---|---|---|
+| Base | 726536006104d6671b214a464d7e301bc7f09acc | 349544b2748808d898e6c813dbf7f8b0d57ed87d |
+| Arte | a61685664ce948dc4a4a2c780a7e4283a0e518cd | 0ac189f1c46e2133359b02769713225b8e1c9e42 |
+| Sonido | 4d85a3ad67dce94066d0cfd0e298aa21ab9b1d50 | 57568de24beaa79ed16daba95b6b75c3b57bbc43 |
+| Modelo mensual | c35d9c8e3001f2eeb00f440f8c0bdc881e671fc2 | b58aacffaa0eb5ba55f3725891114a12735d8570 |
+| Modos clásicos | dff29c7113a874e28baba9f6e519142975794110 | 296c4ba3e8777730450363dc3a26e6c5d5a704c7 |
+| Interfaz/tutorial/demo | 651c0da716b1118d6765040f8e9df9ae94a26c24 | 539c6211d8af965649eebeeb2af816d5a73c371e |
+
+Las seis puntas remotas fueron consultadas con `git ls-remote --heads origin` y coinciden con los commits de traza de esta tabla. Se mantiene un commit de traza por grupo conforme al helper oficial.
+
+Para revisar el orden real: `git log --reverse --oneline main`. Para aislar arte: `git diff codex/luis-01-base..codex/johan-mariana-02-arte`; para sonido: `git diff codex/johan-mariana-02-arte..codex/mariana-luis-03-sonido`. Aplicar el mismo patrón a los grupos siguientes.
+
+## Comprobación de integración
+
+Sobre el commit 539c6211d8af965649eebeeb2af816d5a73c371e se creó una copia limpia, sin archivos no versionados ni node_modules del workspace. `npm ci --offline`, `npm run check`, `npm run build` y `npm run build:demo` finalizaron correctamente. El aviso de tamaño de Phaser continúa. El arranque, tutorial, rutina y pausa se verificaron en navegador y sus capturas se inspeccionaron; las rutas completas previas están en PROGRESO.md.

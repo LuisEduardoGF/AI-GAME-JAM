@@ -4,7 +4,8 @@
 - **Hora de la jam:** pase de dirección visual de la hora 7; inicio registrado: 2026-10-10 00:08 America/Bogota.
 - **Fase:** Contenido; campaña mensual principal y demo independiente de tres días empaquetadas para distribución local.
 - **Loop vigente:** título → introducción/ayuda → rutina de seis franjas → compra/venta con demanda, entrenamiento y técnicas → cobro cada dos días → combate automático → jefes días 7/14/21/30 → final.
-- **Checkpoint:** cambios locales sin commit. `commitsAuto:false`; no se recibió autorización para commit ni push.
+- **Checkpoint:** el usuario autorizó esta subida por funcionalidad. Se publicaron seis ramas con commits de contenido y trazabilidad (AI-CASI-000035 a 000040); hashes en `ORDEN_COMMITS.md`. La configuración general `commitsAuto:false` se conserva; esta operación tiene autorización explícita.
+- **Verificación del repo:** copia limpia del commit 539c621; instalación offline, tipos y ambas builds pasan. No necesita archivos no versionados del workspace. Capturas de arranque/tutorial/rutina/pausa inspeccionadas en `pre-subida-ramas`. Documentación de integración preparada para publicar junto al conjunto en main.
 
 ## Entrega mensual y demo de las 07:00
 
@@ -64,7 +65,7 @@
 - La campaña y la demo ahora son módulos diferidos por separado. El chunk compartido de Phaser aún pesa ~1.2 MB minificado (~319 kB gzip) y Vite lo advierte; evaluar alternativas de carga antes de entrega.
 - El balance necesita más rutas y juego humano; la ruta automatizada actual completó tres combates y «Hermanos» con 8/8 de vida. La fuerza gratis del diálogo y la corta duración de los asaltos requieren valoración de diversión.
 - Los lugares ya son navegables. Pendientes: mayor profundidad del entrenamiento, progresión de habilidades y más interacción con el escenario. Se entrenan dos atributos, no los seis previstos en el alcance original.
-- El repositorio oficial remoto se creó vacío; el historial inicial permanece sin commit y la autorización automática sigue desactivada.
+- El repositorio remoto estaba vacío. La incorporación inicial se realizó mediante commits nuevos por funcionalidad, con fechas reales y ramas apiladas; las tareas anteriores siguen en AI_TRACE.md sin reescribirlas. La autorización automática general sigue desactivada.
 
 ## Identidad y stack
 - Equipo/ID: Casi. Evento/ID: AI GAME JAM. Participantes: A00407796 (sesión), A00431524, A00429821.
