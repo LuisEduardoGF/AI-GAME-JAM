@@ -417,3 +417,14 @@ Files: docs/MODELO_MENSUAL.md, docs/REVISION_CLAUDE_MENSUAL.md, src/mes/modelo.t
 Change: feat: campaña mensual, mercado, deudas y combate automático
 Commit: c35d9c8
 Notes: Incorporación del snapshot actual; fechas reales y rama apilada sobre grupo anterior. Registro de tareas previas en AI_TRACE sin editar. Nombres de revisión según solicitud; autor Git y trazabilidad IA conservados. Sin force push.
+
+## AI-CASI-000039
+
+Timestamp: 2026-10-10T07:52:47-05:00 (hora local del equipo; la oficial es la del servidor/checkpoint)
+Participant: A00407796
+Task: Subida autorizada por funcionalidad: 05 feat: prototipo y campaña clásica con lugares y orientación
+Type: AI_GENERATED
+Files: docs/BUILD_CANDIDATA.md, docs/PROTOTIPO_PRUEBA.md, docs/REVISION_CLAUDE.md, src/campana.ts, src/lugares.ts, src/orientacion.ts, src/prueba.ts
+Change: feat: prototipo y campaña clásica con lugares y orientación
+Commit: dff29c7
+Notes: Incorporación del snapshot actual; fechas reales y rama apilada sobre grupo anterior. Registro de tareas previas en AI_TRACE sin editar. Nombres de revisión según solicitud; autor Git y trazabilidad IA conservados. Sin force push.
