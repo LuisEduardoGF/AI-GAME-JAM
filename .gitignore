@@ -1,0 +1,11 @@
+node_modules/
+dist/
+dist-demo/
+dist-demo-build-blocked/
+dist-demo-ready/
+dist-demo-final/
+public/assets/voces/
+.DS_Store
+Thumbs.db
+entregas/*.zip
+entregas/*.zip.json
