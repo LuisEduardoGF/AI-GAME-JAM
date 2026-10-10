@@ -439,3 +439,14 @@ Files: docs/DEMO_0700.md, docs/GUIA_DEL_JUEGO.md, docs/PLAN_0700.md, src/mes/esc
 Change: feat: interfaz mensual, tutorial y demo independiente
 Commit: 651c0da
 Notes: Incorporación del snapshot actual; fechas reales y rama apilada sobre grupo anterior. Registro de tareas previas en AI_TRACE sin editar. Nombres de revisión según solicitud; autor Git y trazabilidad IA conservados. Sin force push.
+
+## AI-CASI-000041
+
+Timestamp: 2026-10-10T07:55:19-05:00 (hora local del equipo; la oficial es la del servidor/checkpoint)
+Participant: A00407796
+Task: Registrar orden y hashes de los grupos subidos y publicar conjunto integrado
+Type: AI_GENERATED
+Files: README.md, docs/ORDEN_COMMITS.md, docs/PROGRESO.md
+Change: docs: índice de funcionalidades y verificación de integración
+Commit: 4b88c89
+Notes: Usuario autoriza commits y ramas. Seis grupos y puntas remotas verificados. Copia limpia del commit539c621: npm ci offline/check/build/builddemo pasan. Smoke real y capturas inspeccionadas. Entradas anteriores de AI_TRACE idénticas por bytes. Sin fechas alteradas, firmas supuestas ni force push.
