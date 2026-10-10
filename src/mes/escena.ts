@@ -28,7 +28,7 @@ const SKILL_HINTS: Record<string, string> = {
 const PLACES = [
   { id: 'shop', name: 'PUESTO', texture: 'shop-interior', subtitle: 'Un negocio pequeño. Un sueño grande.' },
   { id: 'gym', name: 'GIMNASIO', texture: 'gym-interior', subtitle: 'El ring se gana mucho antes de subir.' },
-  { id: 'home', name: 'CASA', texture: '', subtitle: 'También hay que aprender a bajar el fuego.' },
+  { id: 'home', name: 'CASA', texture: 'home-interior', subtitle: 'También hay que aprender a bajar el fuego.' },
   { id: 'neighborhood', name: 'BARRIO', texture: 'market-alley', subtitle: 'Nadie reconstruye un barrio a solas.' },
 ] as const;
 type Place = typeof PLACES[number]['id'];
@@ -87,7 +87,7 @@ class MonthScene extends Phaser.Scene {
   preload(): void {
     const base = `${import.meta.env.BASE_URL}assets/img/`;
     this.load.spritesheet(PATATA_SHEET.key, base + 'patata-ataques.png', { frameWidth: PATATA_SHEET.width, frameHeight: PATATA_SHEET.height });
-    for (const file of ['shop-interior.jpg', 'gym-interior.jpg', 'market-alley.jpg', 'patata-boxer.png', 'yuca-boxer.png', 'rabano-boxer.png', 'batata-boxer.png', 'remolacha-boxer.png', 'esbirro-yuca.png', 'esbirro-rabano.png', 'esbirro-remolacha.png', 'esbirro-batata.png']) {
+    for (const file of ['shop-interior.jpg', 'gym-interior.jpg', 'home-interior.jpg', 'market-alley.jpg', 'patata-boxer.png', 'yuca-boxer.png', 'rabano-boxer.png', 'batata-boxer.png', 'remolacha-boxer.png', 'esbirro-yuca.png', 'esbirro-rabano.png', 'esbirro-remolacha.png', 'esbirro-batata.png']) {
       this.load.image(file.replace(/\.(jpg|png)$/, ''), base + file);
     }
   }
@@ -336,8 +336,8 @@ class MonthScene extends Phaser.Scene {
     });
     const place = PLACES.find(item => item.id === this.place)!;
     this.panel(18, 130, 548, 299);
-    if (place.texture) this.image(place.texture, 292, 280, 544, 294, 0.82);
-    else this.drawHome();
+    const background = this.image(place.texture, 292, 280, 544, 294, 0.82);
+    if (this.place === 'home') background.setScale(Math.min(544 / background.width, 294 / background.height));
     this.rect(20, 132, 544, 52, COLORS.ink, 0.92);
     this.text(36, 143, place.name === 'PUESTO' ? 'EL PUESTO DE PATATA' : place.name === 'CASA' ? 'UN TECHO PARA VOLVER A EMPEZAR' : place.name, 20);
     this.text(36, 169, place.subtitle, 12, COLORS.muted);
@@ -694,29 +694,6 @@ class MonthScene extends Phaser.Scene {
       this.button(703, y, 186, 51, level >= 2 ? 'NIVEL MÁXIMO' : `MEJORAR · $${cost}`, () => this.accept(applyAction(this.state, { type: 'upgrade', upgrade: upgrade.id }), 'restock'), level < 2 && this.state.coins >= cost && this.state.slot < 6);
     });
     this.text(62, 411, this.message || 'La caja de tu negocio financia el equipo y tus entrenamientos.', 15, '#e8b65f', 802);
-  }
-
-  private drawHome(): void {
-    this.rect(20, 132, 544, 294, COLORS.wood);
-    for (let row = 0; row < 5; row++) {
-      const y = 193 + row * 28;
-      this.rect(31, y, 521, 1, COLORS.ink, 0.2);
-      for (let column = 0; column < 7; column++) this.rect(49 + column * 70 + (row % 2) * 24, y, 1, 28, COLORS.ink, 0.16);
-    }
-    this.rect(20, 340, 544, 86, COLORS.brown);
-    for (const y of [351, 375, 403]) this.rect(31, y, 521, 1, COLORS.edge, 0.6);
-    this.art.halo(this.root, 379, 249, 171, 127, COLORS.gold);
-    this.art.halo(this.root, 254, 309, 118, 98, COLORS.flame);
-    this.rect(323, 210, 111, 78, COLORS.ink);
-    this.rect(329, 216, 99, 66, 0xb7a17e);
-    this.rect(374, 216, 7, 66, COLORS.ink);
-    this.rect(329, 244, 99, 7, COLORS.ink);
-    this.rect(296, 329, 169, 58, COLORS.ink);
-    this.rect(302, 335, 157, 42, 0xd4b894);
-    this.rect(335, 335, 124, 42, 0x945f47);
-    this.rect(237, 341, 38, 52, COLORS.brown);
-    this.rect(252, 304, 5, 37, COLORS.gold);
-    this.rect(239, 294, 31, 20, 0xdd8b49);
   }
 
   private highlightFocus(): void {

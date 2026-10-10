@@ -38,6 +38,7 @@ Herramientas disponibles en el entorno. Uso integrado confirmado: Codex, Claude,
 | Archivo | Herramienta | Prompt / origen |
 |---|---|---|
 | Fondos y Patata / Yuca / Rábano; hojas de Batata y Remolacha | Recursos propios autorizados por el usuario | Images.zip e imágenes del equipo; no se atribuye una IA de origen desconocida |
+| home-interior.jpg | Imagen propia proporcionada por el usuario para la habitación | Copia íntegra del adjunto; procedencia y SHA256 en habitacion-manifest.json; sin nueva generación IA |
 | batata-boxer.png, remolacha-boxer.png | Recorte y normalización de hojas propias | Coordenadas y hashes: arte-mensual-manifest.json |
 | patata-ataques.png (24 cuadros) | Hoja propia del equipo; recorte y normalización local | zip juego.zip; procedencia y hashes: patata-animacion-manifest.json; sin atribuir IA de origen desconocido |
 | esbirro-yuca.png, esbirro-rabano.png, esbirro-remolacha.png, esbirro-batata.png | SDXL 1.0 + Pixel Art XL local | Prompts, semillas, variantes y selección: ARTE_MENSUAL.md, arte-mensual-manifest.json e ia_assets.jsonl |

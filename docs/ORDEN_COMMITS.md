@@ -13,6 +13,7 @@ Los nombres al principio del mensaje identifican responsables de revisión indic
 | 05 | codex/luis-05-modos-clasicos | Luis | Prototipo, campaña anterior, lugares y orientación |
 | 06 | codex/luis-06-interfaz-tutorial-demo | Luis | Presentación mensual, guía, demo y empaquetado |
 | 07 | codex/luis-07-integracion | Luis | Registro de hashes y verificación del conjunto |
+| 08 | codex/johan-mariana-08-habitacion | Johan y Mariana | Fondo propio de CASA, encaje en el panel y créditos |
 
 Las ramas se apilan en este orden: cada una incorpora el grupo anterior y añade su funcionalidad. Los grupos intermedios tienen referencias que se completan al integrar el conjunto; no se presentan como entregas jugables independientes. La última rama y main contienen el juego completo. Revisar el diff contra la rama anterior permite ver cada grupo separado.
 

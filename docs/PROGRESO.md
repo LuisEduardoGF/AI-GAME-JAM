@@ -9,6 +9,9 @@
 
 ## Entrega mensual y demo de las 07:00
 
+- Habitación propia aportada por el usuario integrada en CASA de demo y campaña mensual. `home-interior.jpg` conserva los bytes originales; 1600×901, escala uniforme dentro del panel. Se sustituye el dormitorio procedural sin modificar descanso, vida, energía ni guardado. Procedencia y SHA256 en `habitacion-manifest.json`; créditos actualizados.
+- Tipos y ambas builds pasan. Viajes, descanso (franja/energía/dinero) y recuperación verificados en desarrollo y ambas builds; capturas inspeccionadas en `habitacion-desarrollo`, `habitacion-demo-produccion-reintento` y `habitacion-mes-produccion`. La primera prueba sufrió suspensión de red del navegador y un permiso vencido; reintentos secuenciales pasan sin errores. Revisiones de código y TypeScript sin hallazgos. Rama: `codex/johan-mariana-08-habitacion`.
+
 - Tutorial/ayuda ampliados: ocho temas con índice, páginas anterior/siguiente, consejos y textos específicos para demo/campaña. Acceso desde portada, rutina y pausa; Escape desde portada corregido. Consultar no modifica recursos, día ni combate. Documentación: `GUIA_DEL_JUEGO.md`.
 - Check y ambas builds pasan. Ocho páginas, Enter/Escape, vuelta a pausa, estado intacto y encaje vertical comprobados; capturas inspeccionadas. Demo real hasta victoria y guardar/cargar vuelven a pasar. Lectura durante combate se comprobó con fixture declarada. Revisiones code/TS sin pendientes; falta comprobar comprensión con un jugador nuevo.
 - Paquetes con guía: `entregas/patata-caliente-casi-demo-20261010-073838.zip` y `entregas/patata-caliente-casi-mes-20261010-073837.zip`; cada archivo comparado con build. Demo copiada a Descargas como `Patata-Caliente-Casi-Demo-Tutorial.zip`, hash verificado. Se conservan entregas previas.

@@ -1,0 +1,13 @@
+{
+  "asset": "public/assets/img/home-interior.jpg",
+  "source": "Adjunto del usuario: codex-clipboard-f4d79d35-2445-472c-bb77-6339a3fa0221.jpg",
+  "origin": "Material del equipo autorizado por el usuario para uso en el juego",
+  "sourceGenerator": "No declarado; no se atribuye una IA",
+  "processing": "Copia intacta; ajuste de escala uniforme únicamente en Phaser",
+  "sha256": "8fe5ffdeedd6a21481f16cb730387a74e8f2dc7719f3cdf134c047f2eefdd8bc",
+  "bytes": 85477,
+  "width": 1600,
+  "height": 901,
+  "role": "Fondo de CASA en campaña mensual y demo",
+  "render": { "region": [20, 132, 544, 294], "center": [292, 280], "fit": "contain", "alpha": 0.82 }
+}
