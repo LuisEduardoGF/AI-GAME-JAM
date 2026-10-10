@@ -428,3 +428,14 @@ Files: docs/BUILD_CANDIDATA.md, docs/PROTOTIPO_PRUEBA.md, docs/REVISION_CLAUDE.m
 Change: feat: prototipo y campaña clásica con lugares y orientación
 Commit: dff29c7
 Notes: Incorporación del snapshot actual; fechas reales y rama apilada sobre grupo anterior. Registro de tareas previas en AI_TRACE sin editar. Nombres de revisión según solicitud; autor Git y trazabilidad IA conservados. Sin force push.
+
+## AI-CASI-000040
+
+Timestamp: 2026-10-10T07:52:54-05:00 (hora local del equipo; la oficial es la del servidor/checkpoint)
+Participant: A00407796
+Task: Subida autorizada por funcionalidad: 06 feat: interfaz mensual, tutorial y demo independiente
+Type: AI_GENERATED
+Files: docs/DEMO_0700.md, docs/GUIA_DEL_JUEGO.md, docs/PLAN_0700.md, src/mes/escena.ts, src/mes/guia.ts, tools/empaquetar-demo.mjs
+Change: feat: interfaz mensual, tutorial y demo independiente
+Commit: 651c0da
+Notes: Incorporación del snapshot actual; fechas reales y rama apilada sobre grupo anterior. Registro de tareas previas en AI_TRACE sin editar. Nombres de revisión según solicitud; autor Git y trazabilidad IA conservados. Sin force push.
